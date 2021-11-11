@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace BasicCorePrograms
 {
     class Program
@@ -9,7 +9,7 @@ namespace BasicCorePrograms
             while(flag)
             {
                 Console.WriteLine("Choose an Option To Execute the Program\n 1.flipcoin\n 2.LeapYearCheck\n 3.PowerOfTwo\n 4.harmonicNumber\n 5.PrimeFactors\n 6.QuotientAndRemainder\n 7.Exit");
-                int option = Convert.ToInt32(Console.ReadLine());
+>>              int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
                     case 1:
