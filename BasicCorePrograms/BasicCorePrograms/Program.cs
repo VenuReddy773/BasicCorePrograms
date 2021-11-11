@@ -26,8 +26,7 @@ namespace BasicCorePrograms
                     default:
                         Console.WriteLine("Enter The Correct Option..\n");
                         break;
-                }
-                    
+                }                    
             }
         }
     }
