@@ -8,7 +8,7 @@ namespace BasicCorePrograms
             bool flag = true;
             while(flag)
             {
-                Console.WriteLine("Choose an Option To Execute the Program\n 1.flipcoin\n 2.LeapYearCheck\n 3.PowerOfTwo\n 4.harmonicNumber\n 5.PrimeFactors\n 6.QuotientAndRemainder \n 7.SwapTwoNumbers\n 8.Exit");
+                Console.WriteLine("Choose an Option To Execute the Program\n 1.flipcoin\n 2.LeapYearCheck\n 3.PowerOfTwo\n 4.harmonicNumber\n 5.PrimeFactors\n 6.QuotientAndRemainder \n 7.SwapTwoNumbers\n 8.EvenOrOddCheck\n 9.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -41,6 +41,10 @@ namespace BasicCorePrograms
                         swap.Swapping();
                         break;
                     case 8:
+                        EvenOrOddCheck check1 = new EvenOrOddCheck();
+                        check1.EvenOddCheck();
+                        break;
+                    case 9:
                         flag = false;
                         break;
                     default:
