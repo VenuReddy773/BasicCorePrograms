@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
 namespace BasicCorePrograms
 {
     class FlipCoin
@@ -24,8 +23,7 @@ namespace BasicCorePrograms
                 {
                     Console.WriteLine("Tails");
                     tailCount++;
-                }
-                
+                }                
             }
             headCount *= (100 / number);
             tailCount *= (100 / number);
